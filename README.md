@@ -25,6 +25,11 @@ Before running the tests, ensure that the following dependencies are installed:
   JWT_SECRET_KEY = your-secret-key
   JWT_EXPIRES_IN = your-jwt-expiry
   JWT_ALGORITHM = your-jwt-algorithm
+- After installing all the packages, in your package.json please add the following under "scripts":
+  "test": "npm run init_tables && jest --forceExit",
+  "init_tables": "node src/configs/createSchema.js && node src/configs/initTables.js",
+  "start": "node index.js",
+  "dev": "nodemon index.js",
 
 # Folder Structure 
 taskprogress
