@@ -1,0 +1,101 @@
+/*==================================================================
+                            UNIVERSAL STYLES
+===================================================================*/
+
+.html {
+    width: 102vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../image/background.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow-x: hidden;
+    color: white;
+}
+
+/*==================================================================
+                            HOME STYLES
+===================================================================*/
+
+.btn1 {
+    padding: 10px 18px;
+    background-color: transparent;
+    color: #ffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border: solid;
+    border-radius: 2px;
+    border-color: #ffff;
+    border-top-left-radius: 15px;
+    transition: all 0.5s ease-in;
+    margin-right: -6px;
+}
+
+.btn1:hover {
+    text-decoration: none;
+    color: #ffff;
+    background-color: deepskyblue;
+    border-color: deepskyblue;
+}
+
+.btn2 {
+    padding: 10px 18px;
+    background-color: transparent;
+    color: #ffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border: solid;
+    border-radius: 2px;
+    border-color: #ffff;
+    border-bottom-right-radius: 15px;
+    transition: all 0.5s ease-in;
+}
+
+.btn2:hover {
+    text-decoration: none;
+    color: #ffff;
+    background-color: orangered;
+    border-color: orangered;
+}
+
+.socialnetworks a.fa {
+    border: solid;
+    border-color: #ffff;
+    border-radius: 25px;
+    padding: 14px;
+    color: #ffff;
+    width: 50px;
+    height: 50px;
+    transition: all 0.5s ease-in;
+    text-align: center;
+}
+
+.socialnetworks a.fa:hover {
+    text-decoration: none;
+    background-color: deepskyblue;
+    color: #ffff;
+    border: solid;
+    border-radius: 25px;
+    border-color: deepskyblue;
+}
+
+/*==================================================================
+                            CARD STYLES
+===================================================================*/
+
+.fixed-card1 {
+    width: 200px;
+    height: 250px;
+}
+
+.fixed-card2 {
+    width: 200px;
+    height: 200px;
+}
+
+.fixed-card3 {
+    width: 200px;
+    height: 200px;
+}
