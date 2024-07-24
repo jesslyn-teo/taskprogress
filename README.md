@@ -16,6 +16,15 @@ Before running the tests, ensure that the following dependencies are installed:
 - Node.js
 - npm (Node Package Manager)
 - Execute the command 'npm i express mysql2 dotenv jsonwebtoken bcrypt nodemon' in the terminal to install necessary packages before running the program
+- Create a .env file with the following and fill up accordingly (Note that I used MySQL workbench for this project):
+  DB_HOST= your-host 
+  DB_USER = your-user
+  DB_PASSWORD = your-password
+  DB_DATABASE = gsm (or the name you would like for this database)
+
+  JWT_SECRET_KEY = your-secret-key
+  JWT_EXPIRES_IN = your-jwt-expiry
+  JWT_ALGORITHM = your-jwt-algorithm
 
 # Folder Structure 
 taskprogress
