@@ -1,5 +1,3 @@
-//jesslynteo.23@ichat.sp.edu.sg 2323064 DIT/FT/1B/05
-
 const pool = require("../services/db");
 
 const bcrypt = require("bcrypt");
